@@ -1,0 +1,21 @@
+*{
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ body{
+ 	font-family: arial;
+ 	background-image: url(../img/fundoGas.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+
+ }
+
+  form{
+ 	width: 400px;
+ 	margin: 20px auto;
+ 	background-color: white;
+ 	padding: 25px;
+ 	box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+ 	display: table;
+ }

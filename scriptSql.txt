@@ -1,0 +1,7 @@
+
+
+INSERT INTO permissao( emailPermissao, senhaPermissao, ativo) 
+VALUES 
+('klaubert@hotmail.com', '123', 1),
+('ana@hotmail.com', '123', 1),
+('maria@hotmail.com', '123', 0);

@@ -1,0 +1,84 @@
+/*-------------------RESET-------------------*/
+* { margin: 0px;
+	padding: 0px; 
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+}
+
+/*CABECARIO*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+.cabecario {
+	margin: 10px 10px 10px 10px; 
+	padding:10px 10px 10px 10px;
+	background-color: #EEDD82;
+	border-style: solid; 
+	border-color: #B8860B;
+	border-radius: 15px;  
+ }
+#logo { 
+	width: 40px; 
+}
+#textoLogo { 
+	padding-top: 10px;
+	text-align: center; 
+	font-family: 'Playfair Display', serif;
+	font-size: 30px; 
+	font-weight: normal; 
+	text-shadow: #000 1px 2px 2px;
+	color: orange;
+}
+#bemvindoLogo { 
+	padding-top: 20px;
+	text-align: right;	
+	font-size: 15px;
+}
+
+/*NAVBAR*/
+.menu{
+	margin: 10px 10px 10px 10px; 
+	padding:10px 10px 10px 10px;
+	background-color: #F8F8FF;
+	border-style: solid; 
+	border-color: #B8860B;
+	border-radius: 15px;	
+ }
+
+/*FORMULARIO*/
+.formulario {
+	margin: 10px 10px 10px 10px; 
+	padding:10px 10px 10px 10px;
+	background-color: #F8F8FF;
+	border-style: solid; 
+	border-color: #B8860B; 
+	border-radius: 15px; 
+ }
+button[type=submit] {
+	margin-top: 10px;
+	cursor: pointer;
+	float: left;
+	border: none;
+}
+
+button[type=submit]:hover {
+	cursor: pointer;
+	float: left;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+/*RODAPÉ*/
+.rodape {	
+	margin: 10px 10px 10px 10px; 
+	padding:10px 10px 10px 10px;
+	background-color: #F8F8FF;
+	border-style: solid; 
+	border-color: #B8860B; 
+	border-radius: 15px;
+}
+p {
+	text-align: center;
+}

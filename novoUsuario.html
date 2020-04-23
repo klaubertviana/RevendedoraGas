@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="klaubert">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/novoUsuario.css" rel="stylesheet">
+
+	<title>Novo Usuario</title>
+
+</head>  
+<body>
+<section>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4"></div>
+				<div class="col-md-4">
+					
+					<form method="POST" action="verificaUsuario.php" autocomplete="off">
+						<h3>CADASTRO</h3>
+						
+						<div class="form-group">
+							<label for="emailLogo">Email</label>
+							<input type="email" class="form-control" id="emailLogo" placeholder="Digite seu email" autocomplete="off">			
+						</div>
+
+						<div class="form-group">
+							<label for="senhaLogo">Senha</label>
+							<input type="password" class="form-control" id="senhaLogo" placeholder="Digite sua senha">
+						</div>
+
+						<div class="form-group">
+							<label for="confSenhaLogo">Confirmar Senha</label>
+							<input type="password" class="form-control" id="confSenhaLogo" placeholder="Confirmar sua senha">
+						</div>
+
+						<button type="submit" class="btn btn-primary">CADASTRAR</button>
+					</form>
+			</div>
+			<div class="col-md-4"></div>
+		</div>	
+	</div>
+</section>
+	
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
